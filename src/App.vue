@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <div class="toutiao toutiao-dianzan"></div>
   </div>
 </template>
 
