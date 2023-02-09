@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="toutiao toutiao-dianzan"></div>
+    <!-- 一级路由出口 -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -8,6 +9,10 @@
 
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="less" scoped>
+.box {
+  width: 750px;
+  height: 600px;
+  background-color: pink;
+}
 </style>
