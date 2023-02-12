@@ -70,7 +70,7 @@ export default {
       }
       .cover-item-img {
         width: 232px;
-        height: 100%;
+        height: 146px;
       }
     }
   }

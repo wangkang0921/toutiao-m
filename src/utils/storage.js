@@ -9,3 +9,14 @@ export const getToken = () => localStorage.getItem(key)
 
 // 删除
 export const delToken = () => localStorage.removeItem(key)
+
+// 存储数据
+export const setItem = (uname, newMsg) => {
+  localStorage.setItem(uname, JSON.stringify(newMsg))
+}
+
+// 读取数据
+export const getItem = uname => JSON.parse(localStorage.getItem(uname))
+
+// 删除数据
+export const delItem = uname => localStorage.removeItem(uname)
